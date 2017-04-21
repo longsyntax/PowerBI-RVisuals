@@ -275,7 +275,7 @@ if (dates_valid) {
       labs(color=names(User))+
       theme_bw() + 
       scale_colour_manual(values = getPalette(colourCount)) +
-      theme(axis.text.x = element_text(angle = 45, hjust = 1))+ guides(color=guide_legend(ncol=ncolLegend))
+      theme(axis.text.x = element_text(size = 15, angle = 45, hjust = 1))+ guides(color=guide_legend(ncol=ncolLegend))
   }
   
   
